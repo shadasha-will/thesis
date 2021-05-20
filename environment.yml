@@ -1,0 +1,103 @@
+name: thesis
+channels:
+- bioconda
+- defaults
+dependencies:
+- pronto
+- _tflow_select
+- absl-py
+- allennlp
+- asn1crypto
+- astor
+- blas
+- ca-certificates
+- certifi
+- cffi
+- chardet
+- cryptography
+- cymem
+- cytoolz
+- dill
+- flair
+- gast
+- grpcio
+- h5py
+- hdf5
+- idna
+- intel-openmp
+- keras
+- keras-applications
+- keras-base
+- keras-preprocessing
+- libcxx
+- libcxxabi
+- libedit
+- libffi
+- libgfortran
+- libprotobuf
+- markdown
+- mkl
+- mkl_fft
+- mkl_random
+- msgpack-numpy
+- msgpack-python
+- murmurhash
+- ncurses
+- numpy
+- numpy-base
+- openssl
+- pandas
+- pip
+- plac
+- preshed
+- protobuf
+- pycparser
+- pyopenssl
+- pysocks
+- python
+- python-dateutil
+- pytz
+- pyyaml
+- readline
+- regex
+- requests
+- scipy
+- setuptools
+- six
+- spacy
+- sqlite
+- tensorboard
+- tensorflow
+- tensorflow-base
+- termcolor
+- thinc
+- tk
+- toolz
+- tqdm
+- ujson
+- urllib3
+- werkzeug
+- wheel
+- wrapt
+- xmltodict
+- xz
+- yaml
+- zlib
+- pip:
+  - click
+  - en-core-web-sm
+  - google-pasta
+  - joblib
+  - "git+https://www.github.com/keras-team/keras-contrib.git"
+  - mkl-fft
+  - mkl-random
+  - msgpack
+  - pyahocorasick
+  - scikit-learn
+  - sklearn
+  - tb-nightly
+  - tf-estimator-nightly
+prefix: /usr/local
+
+
+

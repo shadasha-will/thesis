@@ -1,0 +1,6 @@
+  precision    recall  f1-score   support
+
+  DISEASE       0.35      0.25      0.29        59
+
+micro avg       0.35      0.25      0.29        59
+macro avg       0.35      0.25      0.29        59
